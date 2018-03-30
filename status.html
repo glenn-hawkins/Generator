@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link rel="shortcut icon" href="favicon.ico"/>
+
+<title>[ - Status - ]</title>
+
+<link href="generator.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+
+<div class="container">
+<br />
+    <div class="header"></div>
+    <div class="menu">
+        <ul>
+            <li><a href="update.php" rel="Modify Database">Update</a></li>
+            <li><a href="generator.php" rel="Utilize Generator">Generator</a></li>
+            <li><a href="status.html">Status</a></li>
+        </ul>
+    </div>
+    <div class="interface">
+        <p class="title">Welcome to Generator</p>
+            <p class="content">Generator is a database driven site meant to dynamically format lists according to user specifications. A record of updates to the site follows.</p>
+        <p class="title">v0.92b(restored) - 2011/10/10</p>
+            <p class="content">Site is back online. However, the database must be rebuilt from scratch. Streamlined the updating procedure by resetting focus after an entry is submitted.</p>
+        <p class="title">v0.92b - 2011/2/17</p>
+            <p class="content">The practice sheet and flash card templates were updated to properly handle entries that had no 漢字 value. Dynamically generated page titles were added to all of the templates.</p>
+        <p class="title">v0.91b - 2011/2/2</p>
+            <p class="content">Generator beta begins today. So far only two chapters have been fully entered into the database, BK Lesson 1 and FSJ Lesson 9. Beta volunteers will be recruited to assist with data entry, with the goal of having every chapter in every Japanese book used at Sophia in the database. The site will go live once an acceptable amount of data has been entered.</p>
+            <p class="content">Before the site leaves beta, the update page will be protected. Currently it is open to anyone that stumbles across it, leaving the integrity of the database quite vulnerable. Authentication and a method to prevent injection attacks will be implemented. Optimizations will also be made to the database and generated documents, potentially including the page titles that were dropped yesterday and print-media specific styles to improve cross-browser print consistency.</p>
+        <p class="title">v0.9a - 2011/2/1</p>
+            <p class="content">Template pages have been built and are functional, although dynamically generated page titles were sacrificed barring a complete database redesign or an understanding of mysqli_multi_query(). Code on all pages has been cleaned up. In this last alpha version, the structure of the site is completed and ready for  review.</p> 
+        <p class="title">v0.3a - 2011/1/31</p>
+            <p class="content">Update and Generator pages are now functional. The code needs to be cleaned up, but first the template pages for Generator to call need to be built. Functionality at a minimum level will be established before returning to cosmetics.</p>        
+        <p class="title">v0.21a - 2011/1/29</p>
+            <p class="content">Testing has revealed the source of the encoding problem, which has been resolved. Values now display correctly when called from the database.</p>
+        <p class="title">v0.2a - 2011/1/27</p>
+            <p class="content">Database connectivity has been established on the update page, however Generator is experiencing difficulties with encoding Japanese characters into the database. At some point during the connection, the characters are switched from UTF8 encoding to latin, creating a complete mess. This is a problem that needs sorting.</p>
+        <p class="title">v0.1a - 2011/1/26</p>
+            <p class="content">Generator has been formatted and styled, with the most basic features and the database established. The site uses HTML, CSS, JavaScript, and PHP to interact with a MySQL database. Currently the only database driven feature to be implemented is the select boxes on the &quot;Update&quot; and &quot;Generator&quot; pages.</p>
+  </div>
+    <div class="footer">
+    <span class="content">coded by <a href="mailto:glenn@generator.herobo.com">Glenn Hawkins</a>
+    </span>
+    </div>
+</div>
+
+</body>
+</html>
